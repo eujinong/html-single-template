@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AnyTgo</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome CSS-->
+  <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+  <!-- Google fonts - Montserrat for headings, Cardo for copy-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Cardo:400,400italic,700">
+  <!-- Lightbox-->
+  <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+  <!-- theme stylesheet-->
+  <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+  <!-- Custom stylesheet - for your changes-->
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="img/favicon.png">
+  <!-- Leaflet CSS - For the map-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+  <!-- Tweaks for older IEs-->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg sticky">
+      <div class="container-fluid"><a href="#intro" class="navbar-brand link-scroll" style="max-width: 200px">AnyTgo</a>
+        <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+          class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i><i class="fa fa-times"></i></button>
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Home</a></li>
+            <li class="nav-item"><a href="#services" class="nav-link link-scroll">Services</a></li>
+            <li class="nav-item"><a href="#download" class="nav-link link-scroll">Download</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link link-scroll">About Us </a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section id="intro" class="intro">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="container clearfix">
+        <div class="row align-items-center">
+          <div class="col-lg-8 mx-auto pl-lg-5">
+            <p class="title italic text-white text-lg-left text-center" style="margin-bottom: 40px;"><span class="text-danger">AnyT</span>ime, you can <span class="text-danger">go</span> to your description comfortably.</p>
+            <h5 class="title text-center text-lg-left">Any time, anywhere</h5>
+            <p class="title italic text-center text-lg-left">Just tap Anyt.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video-section" style="position: relative;">
+      <video playsInline autoPlay muted loop>
+        <source src="./video/background-video.mp4" type="video/mp4" />
+        <source src="./video/background-video.webm" type="video/webm" />
+      </video>
+    </div>
+  </section>
+  <!-- intro end-->
+  
+  <!-- Services-->
+  <section id="services" style="background-color: #eee">
+    <div class="container">
+      <div class="row services">
+        <div class="col-lg-12">
+          <div class="heading">Our service is provided on basis of</div>
+          <div class="row" style="justify-content: center;">
+            <div class="col-md-4">
+              <div class="box">
+                <div class="icon"><i class="fa fa-globe"></i></div>
+                <h4>Platform Tech</h4>
+                <img src="img/blockchain.png" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box">
+                <div class="icon"><i class="fa fa-bar-chart"></i></div>
+                <h4>Data Analytics</h4>
+                <img src="img/datascience.png" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box">
+                <div class="icon"><i class="fa fa-cogs"></i></div>
+                <h4>Big Data</h4>
+                
+                <img src="img/analytics.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Services end-->
+  <!-- Download -->
+  <section id="download" class="download">
+    <div class="container">
+      <h1 class="text-white text-center mb-5">Download Now</h1>
+      <div class="actions">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center">
+            <img src="./img/iphone.png" class="mb-3" />    
+          </div>
+          <div class="col-md-6 text-center">
+            <div class="template-demo mt-2">
+              <button class="btn btn-outline-dark btn-icon-text"> 
+                <i class="fa fa-play btn-icon-prepend mdi-36px"></i> 
+                <span class="d-inline-block text-left"> 
+                  <small class="font-weight-light d-block">
+                    Get it on the
+                  </small> 
+                  Google Play 
+                </span> 
+              </button> 
+              <button class="btn btn-outline-dark btn-icon-text">
+                <i class="fa fa-apple btn-icon-prepend mdi-36px"></i> 
+                <span class="d-inline-block text-left"> 
+                  <small class="font-weight-light d-block">
+                    Available on the
+                  </small> App Store 
+                </span> 
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Download end-->
+  <!-- about-->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="heading">About Us</div>
+
+          <h4 class="text-info">Who We Are</h4>
+          <p>Starting off in 2017, Smarso has grown organically and now comprises a strong team of Developers.</p>
+          <p>We’re a close-knit group of people who pride ourselves on doing great work and providing great service at a fair price. What do you really need to know about us? We’re a friendly, approachable bunch, with lots of experience in creating websites, apps and online stores who would love to chat to you about your project. So please do give us a call, we’d love to talk to you about how we could be of service.</p>
+        </div>
+        <div class="col-lg-5 mx-auto">
+          <h4 class="text-info">How We Work</h4>
+          <p>We love what we do. The digital industries throw up lots of challenges, but we’re all about problem solving and creative thinking.</p>
+          <p>For us, communication is key. Simple, regular, open communication, with no technical jargon or buzzwords. This helps us to plan and execute projects successfully and efficiently.</p>
+          <p>We like to think that the quality of our work speaks for itself. A quick look through our portfolio will show that our  output is up there with the very best.</p>
+          <h4 class="text-info">What We Can Do</h4>
+          <p>We thrive on producing simple, elegant solutions to complex problems. Simplicity is central to every stage of a Castus project from planning through to design and development. We want your customers to get a great first impression of your company the second they land on your website, and for your customers to have an engaging and fulfilling experience when dealing with your company online.</p>
+        </div>
+      </div>
+      <a href="https://admin.anytgo.com" class="partner-button" target="_blank">Business-partner</a>
+    </div>
+  </section>
+  <!-- about end-->
+  <footer style="background-color: #253862;">
+    <div class="container">
+      <div class="row copyright">
+        <div class="col-md-6">
+          <p class="mb-md-0 text-center text-md-left">&copy;2020 AnyT Web Page</p>
+        </div>
+        <div class="col-md-6 text-center text-md-right">
+          Email: info@anytgo.com
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- JavaScript files-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+  <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+  <script src="js/front.js"></script>
+</body>
+
+</html>
